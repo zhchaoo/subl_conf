@@ -1,0 +1,29 @@
+[
+  { "keys": ["ctrl+u"], "command": "scroll_lines", "args": {"amount": 30.0 } },
+  { "keys": ["ctrl+d"], "command": "scroll_lines", "args": {"amount": -30.0 } },
+  { "keys": ["ctrl+r"], "command": "redo_or_repeat" },
+  { "keys": ["ctrl+]"], "command": "goto_definition" },
+  { "keys": ["ctrl+["], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+  { "keys": ["ctrl+shift+c"], "command": "clang_format" },
+  { "keys": ["ctrl+shift+["], "command": "goto_symbol_in_project" },
+  { "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true}, "context":
+    [
+      { "key": "overlay_visible", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false}, "context":
+    [
+      { "key": "overlay_visible", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true}, "context":
+    [
+      { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false}, "context":
+    [
+      { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    ]
+  }
+]

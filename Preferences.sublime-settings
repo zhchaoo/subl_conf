@@ -1,0 +1,20 @@
+{
+	"auto_find_in_selection": true,
+	"color_scheme": "Packages/User/Monokai (AG).tmTheme",
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 10,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"show_tab_close_buttons": false,
+	"status_bar_brighter": true,
+	"tab_size": 2,
+	"tabs_padding_small": true,
+	"tabs_small": true,
+	"theme": "Afterglow-orange.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true
+}
