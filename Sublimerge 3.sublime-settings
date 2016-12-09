@@ -1,0 +1,7 @@
+{
+  "view": {
+    //set to true if you want to display line numbers (they may not be corresponding
+    //with original file lines due to expanded diff regions)
+    "line_numbers": true
+  }
+}
