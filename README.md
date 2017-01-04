@@ -6,11 +6,11 @@ Config Path
 ```
 Linux:
 $HOME/.config/sublime-text-3/Packages/User
+```
 
 ```
 Windows:
 C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\User
-
 ```
 
 Package List
